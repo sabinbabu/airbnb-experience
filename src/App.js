@@ -10,6 +10,7 @@ export default function App(){
         console.log(data.coverImg)
         return(
             <Card 
+            key={data.id}
             img = {data.coverImg}
             rating= {data.stats.rating}
             reviewCount={data.stats.reviewCount}
@@ -24,7 +25,9 @@ export default function App(){
         <div>
             <Navbar/>
             <Hero/>
-            {dataElement}
+            <div className="card-list">
+                {dataElement}
+            </div>
         </div>
     )
 }

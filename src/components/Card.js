@@ -1,5 +1,5 @@
 import React from "react"
-import logo_icon from "../images/star.png"
+
 
 
 export default function Card(props){
@@ -10,7 +10,7 @@ console.log(props)
         <div className="card">
             <img className="card--image" src={props.img}/>
             <div className="card--ratings">
-                <img className="rating-icon" src={logo_icon}/>
+                <img className="rating-icon" src="../images/star.png"/>
                 <span>{props.rating}</span>
                 <span className="gray">({props.reviewCount}) • </span>
                 <span className="gray">{props.location}</span>       

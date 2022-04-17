@@ -40,6 +40,9 @@ body{
 .card{
     width: 175px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+  
 }
 
 .card--ratings{
@@ -54,6 +57,13 @@ body{
 .rating-icon{
     height: 19px;
     align-self: center;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
 }
 
 
