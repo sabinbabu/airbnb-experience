@@ -10,6 +10,14 @@ body{
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.gray{
+    color: #918E9B;
+}
+
 .hero{
     padding: 50px;
     display: flex;
@@ -24,3 +32,28 @@ body{
 .hero--text{
     font-size: 20px;
 }
+
+.card--image{
+    border-radius: 10px;
+}
+
+.card{
+    width: 175px;
+    padding: 50px;
+}
+
+.card--ratings{
+    display: flex;
+}
+
+.card--ratings > *{
+    padding: 2px;
+
+}
+
+.rating-icon{
+    height: 19px;
+    align-self: center;
+}
+
+
