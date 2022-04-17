@@ -16,7 +16,8 @@ export default function App(){
             reviewCount={data.stats.reviewCount}
             location={data.location}
             title={data.title}
-            price={data.price}    
+            price={data.price} 
+            openSpots={data.openSpots}   
         />
         )
     }) 

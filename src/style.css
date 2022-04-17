@@ -42,7 +42,18 @@ body{
     padding: 50px;
     display: flex;
     flex-direction: column;
-  
+    
+}
+
+.card--status{
+    position: absolute;
+    background-color: white;
+    padding: 1px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 10px;
 }
 
 .card--ratings{
