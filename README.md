@@ -3,4 +3,4 @@ Scrimba Learning Project | AirBnb Experience | React.js
 
 ## Screen
 
-![Home Page](/src/images/homepage.png)
+![Home Page](../airbnb/public/images/homepage.png)
